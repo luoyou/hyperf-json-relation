@@ -1,0 +1,23 @@
+{
+    "name": "luo/hyperf-json-relation",
+    "description": "基于hyperf的json-relation，解决数据库中使用json字段的关联with问题",
+    "type": "library",
+    "require": {
+        "staudenmeir/eloquent-json-relations": "^1.8",
+        "hyperf/database": "^3.0",
+        "hyperf/collection": "^3.0",
+        "hyperf/contract": "^3.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Luo\\HyperfJsonRelation\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "luo",
+            "email": "479933015@qq.com"
+        }
+    ]
+}
