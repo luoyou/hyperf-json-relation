@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Luo\HyperfJsonRelation;
+namespace Luoyou\HyperfJsonRelation;
 
 use Hyperf\Database\Model\Builder;
 use Hyperf\Database\Model\Model;
@@ -13,8 +13,8 @@ use Hyperf\Database\Model\Relations\HasOne;
 use Hyperf\Database\Model\Relations\HasOneThrough;
 use Hyperf\Database\Model\Relations\MorphMany;
 use Hyperf\Database\Model\Relations\MorphOne;
-use Luo\HyperfJsonRelation\Relations\BelongsToJson;
-use Luo\HyperfJsonRelation\Relations\HasManyJson;
+use Luoyou\HyperfJsonRelation\Relations\BelongsToJson;
+use Luoyou\HyperfJsonRelation\Relations\HasManyJson;
 use Staudenmeir\EloquentJsonRelations\Relations\Postgres\BelongsTo as BelongsToPostgres;
 use Staudenmeir\EloquentJsonRelations\Relations\Postgres\HasMany as HasManyPostgres;
 use Staudenmeir\EloquentJsonRelations\Relations\Postgres\HasManyThrough as HasManyThroughPostgres;

@@ -1,5 +1,5 @@
 <?php
-namespace Luo\HyperfJsonRelation\Relations;
+namespace Luoyou\HyperfJsonRelation\Relations;
 
 use Hyperf\Database\Model\Builder;
 use Hyperf\Database\Model\Collection;

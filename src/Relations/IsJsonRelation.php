@@ -1,13 +1,13 @@
 <?php
 
-namespace Luo\HyperfJsonRelation\Relations;
+namespace Luoyou\HyperfJsonRelation\Relations;
 
 use Hyperf\Contract\Arrayable;
 use Hyperf\Database\Model\Builder;
 use Hyperf\Database\Model\Collection;
 use Hyperf\Database\Model\Model;
 use Hyperf\Database\Model\Relations\Pivot;
-use Luo\HyperfJsonRelation\Grammars\MySqlGrammar;
+use Luoyou\HyperfJsonRelation\Grammars\MySqlGrammar;
 use RuntimeException;
 use Staudenmeir\EloquentJsonRelations\Grammars\PostgresGrammar;
 use Staudenmeir\EloquentJsonRelations\Grammars\SqlServerGrammar;

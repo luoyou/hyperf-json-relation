@@ -1,6 +1,6 @@
 <?php
 
-namespace Luo\HyperfJsonRelation\Grammars;
+namespace Luoyou\HyperfJsonRelation\Grammars;
 
 use Hyperf\Database\ConnectionInterface;
 use Hyperf\Database\Query\Expression;

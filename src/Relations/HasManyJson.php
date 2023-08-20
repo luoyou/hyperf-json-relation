@@ -1,6 +1,6 @@
 <?php
 
-namespace Luo\HyperfJsonRelation\Relations;
+namespace Luoyou\HyperfJsonRelation\Relations;
 
 use Hyperf\Database\Model\Relations\HasMany;
 use Hyperf\Database\Model\Builder;
