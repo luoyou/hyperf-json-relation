@@ -10,9 +10,9 @@
 
 ## 兼容性
 
-| 数据库     | Laravel |
-| :--------- | :------ |
-| MySQL 5.7+ | 5.5.29+ |
+| 数据库     | Hyperf |
+| :--------- | :----- |
+| MySQL 5.7+ | 3.0+   |
 
 ## 安装
 
@@ -100,7 +100,7 @@ class Role extends Model
 ```php
 class User extends Model
 {
-    use \Staudenmeir\EloquentJsonRelations\HasJsonRelationships;
+    use \Luoyou\HyperfJsonRelation\HasJsonRelationships;
 
     protected $casts = [
        'options' => 'json',
@@ -114,7 +114,7 @@ class User extends Model
 
 class Role extends Model
 {
-    use \Staudenmeir\EloquentJsonRelations\HasJsonRelationships;
+    use \Luoyou\HyperfJsonRelation\HasJsonRelationships;
 
     public function users()
     {
